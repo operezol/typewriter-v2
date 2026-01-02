@@ -1,0 +1,256 @@
+import type { Lesson } from '../types/lesson'
+
+export const lessons: Lesson[] = [
+  {
+    id: 1,
+    title: 'Fila Central - Posición Base',
+    description: 'Aprende la posición base de los dedos: ASDF y JKL;',
+    level: 1,
+    keys: ['a', 's', 'd', 'f', 'j', 'k', 'l', 'ñ'],
+    exercises: [
+      {
+        id: '1-1',
+        text: 'fff jjj fff jjj ddd kkk ddd kkk sss lll sss lll aaa ñññ aaa ñññ',
+        type: 'keys',
+      },
+      {
+        id: '1-2',
+        text: 'asdf jklñ asdf jklñ fdsa ñlkj fdsa ñlkj',
+        type: 'keys',
+      },
+      {
+        id: '1-3',
+        text: 'faja sala faja sala dala kasa dala kasa',
+        type: 'words',
+      },
+    ],
+    requiredAccuracy: 90,
+    requiredWPM: 15,
+    unlocked: true,
+  },
+  {
+    id: 2,
+    title: 'Fila Superior',
+    description: 'Extiende tus dedos hacia arriba: QWER y UIOP',
+    level: 2,
+    keys: ['q', 'w', 'e', 'r', 'u', 'i', 'o', 'p'],
+    exercises: [
+      {
+        id: '2-1',
+        text: 'qqq www eee rrr uuu iii ooo ppp',
+        type: 'keys',
+      },
+      {
+        id: '2-2',
+        text: 'que fue por que fue por rio poi rio poi',
+        type: 'words',
+      },
+      {
+        id: '2-3',
+        text: 'quiero aprender a escribir rapido',
+        type: 'sentences',
+      },
+    ],
+    requiredAccuracy: 90,
+    requiredWPM: 20,
+    unlocked: false,
+  },
+  {
+    id: 3,
+    title: 'Fila Inferior',
+    description: 'Baja tus dedos: ZXCV y M,.',
+    level: 3,
+    keys: ['z', 'x', 'c', 'v', 'm', ',', '.'],
+    exercises: [
+      {
+        id: '3-1',
+        text: 'zzz xxx ccc vvv mmm ,,, ...',
+        type: 'keys',
+      },
+      {
+        id: '3-2',
+        text: 'vez voz caza maza como coma',
+        type: 'words',
+      },
+      {
+        id: '3-3',
+        text: 'el zorro come maiz, la vaca come pasto.',
+        type: 'sentences',
+      },
+    ],
+    requiredAccuracy: 90,
+    requiredWPM: 25,
+    unlocked: false,
+  },
+  {
+    id: 4,
+    title: 'Números',
+    description: 'Domina la fila de números: 1234567890',
+    level: 4,
+    keys: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'],
+    exercises: [
+      {
+        id: '4-1',
+        text: '111 222 333 444 555 666 777 888 999 000',
+        type: 'keys',
+      },
+      {
+        id: '4-2',
+        text: '123 456 789 012 345 678 901 234',
+        type: 'keys',
+      },
+      {
+        id: '4-3',
+        text: 'el codigo es 12345, la clave es 67890',
+        type: 'sentences',
+      },
+    ],
+    requiredAccuracy: 85,
+    requiredWPM: 30,
+    unlocked: false,
+  },
+  {
+    id: 5,
+    title: 'Símbolos Básicos',
+    description: 'Practica símbolos comunes: !@#$%&*()',
+    level: 5,
+    keys: ['!', '@', '#', '$', '%', '&', '*', '(', ')'],
+    exercises: [
+      {
+        id: '5-1',
+        text: '!!! @@@ ### $$$ %%% &&& *** ((( )))',
+        type: 'keys',
+      },
+      {
+        id: '5-2',
+        text: 'email@example.com precio: $100 (oferta)',
+        type: 'sentences',
+      },
+    ],
+    requiredAccuracy: 85,
+    requiredWPM: 30,
+    unlocked: false,
+  },
+  {
+    id: 6,
+    title: 'Palabras Comunes',
+    description: 'Practica con las 100 palabras más usadas en español',
+    level: 6,
+    keys: [],
+    exercises: [
+      {
+        id: '6-1',
+        text: 'el la de que y a en un ser se no haber por con su para como estar tener le lo todo pero mas hacer o poder decir este ir otro ese la si me ya ver porque dar cuando el muy sin vez mucho saber que querer yo hay',
+        type: 'words',
+      },
+      {
+        id: '6-2',
+        text: 'la vida es bella cuando sabes disfrutarla',
+        type: 'sentences',
+      },
+    ],
+    requiredAccuracy: 92,
+    requiredWPM: 35,
+    unlocked: false,
+  },
+  {
+    id: 7,
+    title: 'Frases Completas',
+    description: 'Escribe frases y oraciones completas con fluidez',
+    level: 7,
+    keys: [],
+    exercises: [
+      {
+        id: '7-1',
+        text: 'La práctica hace al maestro. Cada día mejoras un poco más. La constancia es la clave del éxito.',
+        type: 'sentences',
+      },
+      {
+        id: '7-2',
+        text: 'El rápido zorro marrón salta sobre el perro perezoso. Esta frase contiene todas las letras del alfabeto.',
+        type: 'sentences',
+      },
+    ],
+    requiredAccuracy: 93,
+    requiredWPM: 40,
+    unlocked: false,
+  },
+  {
+    id: 8,
+    title: 'Textos Literarios',
+    description: 'Practica con fragmentos de literatura clásica',
+    level: 8,
+    keys: [],
+    exercises: [
+      {
+        id: '8-1',
+        text: 'En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.',
+        type: 'sentences',
+      },
+    ],
+    requiredAccuracy: 94,
+    requiredWPM: 45,
+    unlocked: false,
+  },
+  {
+    id: 9,
+    title: 'Código de Programación',
+    description: 'Practica escribiendo código JavaScript/TypeScript',
+    level: 9,
+    keys: [],
+    exercises: [
+      {
+        id: '9-1',
+        text: 'function calculateSum(a, b) { return a + b; }',
+        type: 'code',
+      },
+      {
+        id: '9-2',
+        text: 'const user = { name: "John", age: 30, email: "john@example.com" };',
+        type: 'code',
+      },
+      {
+        id: '9-3',
+        text: 'for (let i = 0; i < array.length; i++) { console.log(array[i]); }',
+        type: 'code',
+      },
+    ],
+    requiredAccuracy: 95,
+    requiredWPM: 50,
+    unlocked: false,
+  },
+  {
+    id: 10,
+    title: 'Maestro de la Mecanografía',
+    description: 'Nivel experto - Velocidad y precisión máximas',
+    level: 10,
+    keys: [],
+    exercises: [
+      {
+        id: '10-1',
+        text: 'La mecanografía es una habilidad esencial en el mundo digital moderno. Dominarla te permitirá trabajar más eficientemente, comunicarte mejor y expresar tus ideas con mayor rapidez. La práctica constante y la técnica correcta son fundamentales para alcanzar la maestría.',
+        type: 'sentences',
+      },
+    ],
+    requiredAccuracy: 97,
+    requiredWPM: 60,
+    unlocked: false,
+  },
+  {
+    id: 11,
+    title: 'Quote Mode - Frases Inspiradoras',
+    description: 'Practica con quotes famosas e inspiradoras de autores célebres',
+    level: 11,
+    keys: [],
+    exercises: [
+      {
+        id: '11-1',
+        text: 'QUOTE_DYNAMIC',
+        type: 'quote',
+      },
+    ],
+    requiredAccuracy: 95,
+    requiredWPM: 50,
+    unlocked: false,
+  },
+]
