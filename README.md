@@ -12,10 +12,10 @@ A modern, interactive web application for learning touch typing with progressive
 ## ✨ Features
 
 ### 🎯 Progressive Learning System
-- **10 Levels** from basic home row to expert coding
+- **11 Levels** from basic home row to expert coding and quotes
 - **Structured Lessons** with increasing difficulty
 - **Unlock System** - Complete lessons to unlock new ones
-- **Multiple Exercise Types** - Keys, words, sentences, and code
+- **Multiple Exercise Types** - Keys, words, sentences, code, and inspirational quotes
 
 ### 📊 Real-Time Statistics
 - **WPM (Words Per Minute)** - Track your typing speed
@@ -98,6 +98,8 @@ typewriter-v2/
 │   ├── data/
 │   │   ├── lessons.ts     # Lesson definitions
 │   │   └── keyboards.ts   # Keyboard layouts
+│   ├── services/
+│   │   └── quoteService.ts # Quote API integration
 │   ├── hooks/             # Custom React hooks
 │   ├── store/             # Zustand state management
 │   ├── types/             # TypeScript type definitions
@@ -143,6 +145,9 @@ Practice with JavaScript/TypeScript code snippets.
 
 ### Level 10: Expert Level
 Master-level exercises for speed and accuracy.
+
+### Level 11: Quote Mode - Inspirational Quotes ✨
+Practice typing with famous quotes from celebrated authors. Each session fetches a random inspirational quote, making practice engaging and motivational. Perfect for maintaining interest while improving speed and accuracy.
 
 ## 📊 Statistics Tracked
 
